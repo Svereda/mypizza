@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="galery_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <title>PIZZA</title>
+</head>
+<body>
+    <div class="header">
+        <div class='container'>
+            <div class="header-line">
+                <div class="header-logo">
+                    <img src="pictures/logo.png" alt="">
+                </div>
+                <div class="nav">
+                    <a class="nav-item" href="index.html">ГОЛОВНА</a>
+                    <a class="nav-item" href="galery.html">ПІЦА</a>
+                    <a class="nav-item" href="info.html">ПРО НАС</a>
+                    <a class="nav-item" href="partners.html">ДОЄДНАТИСЯ</a>
+                    <a class="nav-item" href="kontakty.html">КОНТАКТИ</a>
+                </div>
+            </div>
+            
+            <div class="gallery-text">
+              НАШЕ МЕНЮ
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="gallery-list">
+                <a href="pictures/proshuto.jpg" class="gallery-item">
+                  <div class="gallery-item-hover"><p style="text-align:center">Прошуто<br>Склад:<br>моцарелла, парма прошутто, пармезан, рукола, чері</p></div>
+                  <img src="pictures/proshuto.jpg" alt="alt">
+                </a>
+                <a href="pictures/czezarino.jpg" class="gallery-item">
+                  <div class="gallery-item-hover"><p style="text-align:center">Цезар<br>Склад:<br>бекон, моцарелла, пармезан, соус цезар, чері</p></div>
+                  <img src="pictures/czezarino.jpg" alt="alt">
+                </a>
+                <a href="pictures/gribnaya.jpg" class="gallery-item">
+                  <div class="gallery-item-hover"><p style="text-align:center">Грибна<br>Склад:<br>білий гриб, моцарелла, підпеньки, пармезан, петрушка, печериці</p></div>
+                  <img src="pictures/gribnaya.jpg" alt="alt">
+                </a>
+                <a href="pictures/margarita.jpg" class="gallery-item">
+                  <div class="gallery-item-hover"><p style="text-align:center">Маргарита<br>Склад:<br>моцарелла, пармезан, чері</p></div>
+                  <img src="pictures/margarita.jpg" alt="alt">
+                </a>
+                <a href="pictures/bbq.jpg" class="gallery-item">
+                  <div class="gallery-item-hover"><p style="text-align:center">Барбекю<br>Склад:<br>цибуля, моцарелла, мисливські ковбаски, перець болгарський, салями, свинина</p></div>
+                  <img src="pictures/bbq.jpg" alt="alt">
+                </a>
+                <a href="pictures/oreo.jpg" class="gallery-item">
+                  <div class="gallery-item-hover"><p style="text-align:center">OREO<br>Склад:<br>Oreo, мигдаль, вершки</p></div>
+                  <img src="pictures/oreo.jpg" alt="alt">
+                </a>
+                <a href="pictures/muslivska.jpg" class="gallery-item">
+                  <div class="gallery-item-hover"><p style="text-align:center">Мисливська<br>Склад:<br>бекон, цибуля, моцарелла, мисливські ковбаски, перець болгарський, перець гострий</p></div>
+                  <img src="pictures/muslivska.jpg" alt="alt">
+                </a>
+                <a href="pictures/peperoni.jpg" class="gallery-item">
+                  <div class="gallery-item-hover"><p style="text-align:center">Папероні<br>Склад:<br>кукуруза, моцарелла, перець гострий, салямі PEPERONI</p></div>
+                  <img src="pictures/peperoni.jpg" alt="alt">
+                </a>
+              </div>
+            </section>
+            </div>
+        </div>
+        <footer class="footer"></footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <script>
+    $(".gallery-list").magnificPopup({
+      delegate: "a",
+      type: "image",
+      gallery: {
+        enabled: true
+      }
+    });
+    </script>
+    
+</body>
+
+</html>
